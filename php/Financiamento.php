@@ -1,7 +1,11 @@
 <?php
 
   require_once 'Parcela.php';
-
+  // Essa classe abstrai um Financiamento pelo Sistema Francês de Amortização
+  // O objetivo é simular as prestações de um empréstimo.
+  // O usuário deve ser capaz de visualizar o valor de cada prestação, os juros pagos em cada uma delas, o valor amortizado (pago do total devido)
+  // e o valor atualizado de sua dívida (saldo devedor) após cada pagamento.
+  // Siga os passos descritos em cada comentário para obter o resultado.
   class Financiamento{
 
     private $valorFinanciado;
